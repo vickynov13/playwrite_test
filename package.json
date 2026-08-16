@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "set ENVIRONMENT=qa && npx playwright test --project=chromium"
+    "test": "set ENVIRONMENT=qa && npx playwright test --project=chromium",
+    "test1": "set ENVIRONMENT=qa && npx playwright test"
   },
   "keywords": [],
   "author": "",
