@@ -1,0 +1,20 @@
+{
+  "name": "playwrt1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "set ENVIRONMENT=qa && npx playwright test --project=chromium"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "dotenv": "17.4.2",
+    "glob": "13.0.6",
+    "log4js": "^6.9.1"
+  }
+}
